@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { trpc } from '@/lib/trpc';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -10,36 +10,16 @@ import { Badge } from '@/components/ui/badge';
 import { Skeleton } from '@/components/ui/skeleton';
 import {
   MapPin, Home, DollarSign, BedDouble, Bath, Lock, ArrowRight,
-  Phone, Mail, ChevronLeft, ChevronRight, Search, SlidersHorizontal,
+  ChevronLeft, ChevronRight, Search, SlidersHorizontal,
   X, Eye, MessageCircle, Heart
 } from 'lucide-react';
 import { MapView } from '@/components/Map';
 import { InquiryForm } from '@/components/InquiryForm';
 import { QualificationPrompt, type QualificationData } from '@/components/QualificationPrompt';
-import { loadMarkerClustererLibrary, createMarkerClusterer } from '@/lib/markerClusterer';
 import { toast } from 'sonner';
 import { Link } from 'wouter';
 import { useFavorites } from '@/hooks/useFavorites';
-
-// Strip street address from apartment name for privacy
-function getDisplayName(name: string) {
-  // Remove street address patterns (e.g., "123 Main St, City, State 12345")
-  // Keep only the building/complex name
-  const parts = name.split(',');
-  if (parts.length > 1) {
-    // If there's a comma, likely has address, return first part
-    return parts[0].trim();
-  }
-  // If no comma, check for patterns like "123 Street Name"
-  const addressPattern = /^\d+\s+/;
-  if (addressPattern.test(name)) {
-    // Remove leading number and street
-    const words = name.split(' ');
-    // Skip first word (number) and second word (street type), return rest
-    return words.slice(2).join(' ') || name;
-  }
-  return name;
-}
+import { getDisplayName, mapAreaToNeighborhoods } from '@/lib/apartmentUtils';
 
 interface ApartmentTeased {
   id: number;
@@ -269,6 +249,7 @@ export default function ApartmentSearch() {
   const [showFilters, setShowFilters] = useState(false);
   const [showPinPreview, setShowPinPreview] = useState(false);
   const [showInquiryForm, setShowInquiryForm] = useState(false);
+  const isLeadAuthenticated = true;
 
   // === New staged qualification flow (approved plan) ===
   const [showQualificationPrompt, setShowQualificationPrompt] = useState(false);
@@ -313,17 +294,16 @@ export default function ApartmentSearch() {
 
   const apartments: ApartmentTeased[] = (apartmentsData ?? []) as ApartmentTeased[];
 
+  const qualifiedNeighborhoods = useMemo(() => {
+    if (!qualification || qualification.preferredAreas.length === 0) {
+      return null;
+    }
+    return new Set(mapAreaToNeighborhoods(qualification.preferredAreas));
+  }, [qualification]);
+
   const filtered = apartments.filter(apt => {
-    // Post-qualification: if user gave preferred areas, do better client-side narrowing
-    if (qualification && qualification.preferredAreas.length > 0) {
-      const matchesArea = qualification.preferredAreas.some(area => {
-        const areaLower = area.toLowerCase();
-        const hoodLower = apt.neighborhood.toLowerCase();
-        // Match on common keywords (Heights, Montrose, Katy, etc.)
-        const keywords = areaLower.split(/[/\s]+/).filter(k => k.length > 2);
-        return keywords.some(kw => hoodLower.includes(kw));
-      });
-      if (!matchesArea) return false;
+    if (qualifiedNeighborhoods) {
+      if (!qualifiedNeighborhoods.has(apt.neighborhood)) return false;
     }
 
     if (!searchText) return true;
@@ -340,7 +320,10 @@ export default function ApartmentSearch() {
       .some(value => value.toLowerCase().includes(term));
   });
 
-  const neighborhoods = Array.from(new Set(apartments.map(a => a.neighborhood))).sort();
+  const neighborhoods = useMemo(
+    () => Array.from(new Set(apartments.map(a => a.neighborhood))).sort(),
+    [apartments]
+  );
 
   // ── Map markers ──────────────────────────────────────────────────────────────
   const placeMarkers = useCallback((map: google.maps.Map, apts: ApartmentTeased[]) => {
@@ -477,16 +460,15 @@ export default function ApartmentSearch() {
       if (range) setRentRange(range);
     }
 
-    // Preferred areas — set the first selected area into neighborhood filter for server query
-    // (we can expand to multi-area client filtering in a follow-up)
+    // Preferred areas — map to actual neighborhoods and set first one for server query
     if (q.preferredAreas.length > 0) {
-      setSelectedNeighborhood(q.preferredAreas[0]);
+      const mappedNeighborhoods = mapAreaToNeighborhoods(q.preferredAreas);
+      if (mappedNeighborhoods.length > 0) {
+        setSelectedNeighborhood(mappedNeighborhoods[0]);
+      }
     }
 
-    // Nice toast + future banner (we'll enhance the UI in next steps)
     toast.success("Got it — filtering the map to your best matches right now.");
-
-    // TODO (next): add visible "Strong matches for your [criteria]" banner similar to post-lead banner
   };
 
   return (
