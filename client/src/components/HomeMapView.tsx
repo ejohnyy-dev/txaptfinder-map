@@ -2,6 +2,7 @@ import { useEffect, useRef, useCallback, useState } from "react";
 import { trpc } from "@/lib/trpc";
 import { cn } from "@/lib/utils";
 import { getDisplayName } from "@/lib/apartmentUtils";
+import { loadMarkerClustererLibrary, createMarkerClusterer } from "@/lib/markerClusterer";
 
 declare global {
   interface Window {
