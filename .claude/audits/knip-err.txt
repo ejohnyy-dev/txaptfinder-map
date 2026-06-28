@@ -1,0 +1,8 @@
+ERROR: Error loading drizzle.config.ts (Cannot find module 'drizzle-kit')
+ERROR: Please fix or visit https://knip.dev/reference/known-issues
+ERROR: Error loading vite.config.ts (Cannot find module '@builder.io/vite-plugin-jsx-loc')
+ERROR: Please fix or visit https://knip.dev/reference/known-issues
+ERROR: Error loading vitest.config.ts (Cannot find module 'vitest/config')
+ERROR: Please fix or visit https://knip.dev/reference/known-issues
+Configuration hints (1)
+. (root)    .  Create knip.json configuration file, and add entry and/or refine project files (120 unused files)

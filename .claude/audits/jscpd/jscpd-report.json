@@ -1,0 +1,1725 @@
+{
+  "duplicates": [
+    {
+      "firstFile": {
+        "end": 544,
+        "endLoc": {
+          "column": 12,
+          "line": 544,
+          "position": 15893
+        },
+        "name": "public/__manus__/debug-collector.js",
+        "start": 538,
+        "startLoc": {
+          "column": 8,
+          "line": 538,
+          "position": 15477
+        }
+      },
+      "format": "javascript",
+      "fragment": "",
+      "lines": 7,
+      "secondFile": {
+        "end": 637,
+        "endLoc": {
+          "column": 12,
+          "line": 637,
+          "position": 19292
+        },
+        "name": "public/__manus__/debug-collector.js",
+        "start": 630,
+        "startLoc": {
+          "column": 8,
+          "line": 630,
+          "position": 18875
+        }
+      },
+      "tokens": 65
+    },
+    {
+      "firstFile": {
+        "end": 221,
+        "endLoc": {
+          "column": 46,
+          "line": 221,
+          "position": 7316
+        },
+        "name": "src/components/ContactForm.tsx",
+        "start": 215,
+        "startLoc": {
+          "column": 32,
+          "line": 215,
+          "position": 7108
+        }
+      },
+      "format": "tsx",
+      "fragment": "",
+      "lines": 7,
+      "secondFile": {
+        "end": 251,
+        "endLoc": {
+          "column": 46,
+          "line": 251,
+          "position": 8498
+        },
+        "name": "src/components/ContactForm.tsx",
+        "start": 245,
+        "startLoc": {
+          "column": 32,
+          "line": 245,
+          "position": 8290
+        }
+      },
+      "tokens": 54
+    },
+    {
+      "firstFile": {
+        "end": 236,
+        "endLoc": {
+          "column": 16,
+          "line": 236,
+          "position": 7849
+        },
+        "name": "src/components/ContactForm.tsx",
+        "start": 228,
+        "startLoc": {
+          "column": 33,
+          "line": 228,
+          "position": 7636
+        }
+      },
+      "format": "tsx",
+      "fragment": "",
+      "lines": 9,
+      "secondFile": {
+        "end": 266,
+        "endLoc": {
+          "column": 16,
+          "line": 266,
+          "position": 9014
+        },
+        "name": "src/components/ContactForm.tsx",
+        "start": 258,
+        "startLoc": {
+          "column": 30,
+          "line": 258,
+          "position": 8811
+        }
+      },
+      "tokens": 52
+    },
+    {
+      "firstFile": {
+        "end": 283,
+        "endLoc": {
+          "column": 19,
+          "line": 283,
+          "position": 9958
+        },
+        "name": "src/components/QualificationPrompt.tsx",
+        "start": 274,
+        "startLoc": {
+          "column": 36,
+          "line": 274,
+          "position": 9617
+        }
+      },
+      "format": "tsx",
+      "fragment": "",
+      "lines": 10,
+      "secondFile": {
+        "end": 326,
+        "endLoc": {
+          "column": 19,
+          "line": 326,
+          "position": 11937
+        },
+        "name": "src/components/QualificationPrompt.tsx",
+        "start": 317,
+        "startLoc": {
+          "column": 31,
+          "line": 317,
+          "position": 11596
+        }
+      },
+      "tokens": 57
+    },
+    {
+      "firstFile": {
+        "end": 53,
+        "endLoc": {
+          "column": 5,
+          "line": 53,
+          "position": 1797
+        },
+        "name": "src/components/ui/input.tsx",
+        "start": 29,
+        "startLoc": {
+          "column": 28,
+          "line": 29,
+          "position": 1106
+        }
+      },
+      "format": "tsx",
+      "fragment": "",
+      "lines": 25,
+      "secondFile": {
+        "end": 53,
+        "endLoc": {
+          "column": 5,
+          "line": 53,
+          "position": 1885
+        },
+        "name": "src/components/ui/textarea.tsx",
+        "start": 29,
+        "startLoc": {
+          "column": 43,
+          "line": 29,
+          "position": 1194
+        }
+      },
+      "tokens": 78
+    },
+    {
+      "firstFile": {
+        "end": 555,
+        "endLoc": {
+          "column": 30,
+          "line": 555,
+          "position": 21116
+        },
+        "name": "src/pages/ComponentShowcase.tsx",
+        "start": 547,
+        "startLoc": {
+          "column": 28,
+          "line": 547,
+          "position": 20619
+        }
+      },
+      "format": "tsx",
+      "fragment": "",
+      "lines": 9,
+      "secondFile": {
+        "end": 574,
+        "endLoc": {
+          "column": 30,
+          "line": 574,
+          "position": 22220
+        },
+        "name": "src/pages/ComponentShowcase.tsx",
+        "start": 566,
+        "startLoc": {
+          "column": 29,
+          "line": 566,
+          "position": 21723
+        }
+      },
+      "tokens": 73
+    },
+    {
+      "firstFile": {
+        "end": 556,
+        "endLoc": {
+          "column": 27,
+          "line": 556,
+          "position": 21193
+        },
+        "name": "src/pages/ComponentShowcase.tsx",
+        "start": 550,
+        "startLoc": {
+          "column": 39,
+          "line": 550,
+          "position": 20788
+        }
+      },
+      "format": "tsx",
+      "fragment": "",
+      "lines": 7,
+      "secondFile": {
+        "end": 615,
+        "endLoc": {
+          "column": 23,
+          "line": 615,
+          "position": 24230
+        },
+        "name": "src/pages/ComponentShowcase.tsx",
+        "start": 609,
+        "startLoc": {
+          "column": 35,
+          "line": 609,
+          "position": 23849
+        }
+      },
+      "tokens": 61
+    },
+    {
+      "firstFile": {
+        "end": 576,
+        "endLoc": {
+          "column": 47,
+          "line": 576,
+          "position": 22329
+        },
+        "name": "src/pages/ComponentShowcase.tsx",
+        "start": 566,
+        "startLoc": {
+          "column": 28,
+          "line": 566,
+          "position": 21722
+        }
+      },
+      "format": "tsx",
+      "fragment": "",
+      "lines": 11,
+      "secondFile": {
+        "end": 614,
+        "endLoc": {
+          "column": 75,
+          "line": 614,
+          "position": 24206
+        },
+        "name": "src/pages/ComponentShowcase.tsx",
+        "start": 605,
+        "startLoc": {
+          "column": 22,
+          "line": 605,
+          "position": 23666
+        }
+      },
+      "tokens": 86
+    },
+    {
+      "firstFile": {
+        "end": 29,
+        "endLoc": {
+          "column": 26,
+          "line": 29,
+          "position": 851
+        },
+        "name": "_core/dataApi.ts",
+        "start": 19,
+        "startLoc": {
+          "column": 18,
+          "line": 19,
+          "position": 469
+        }
+      },
+      "format": "typescript",
+      "fragment": "",
+      "lines": 11,
+      "secondFile": {
+        "end": 48,
+        "endLoc": {
+          "column": 26,
+          "line": 48,
+          "position": 1225
+        },
+        "name": "_core/imageGeneration.ts",
+        "start": 36,
+        "startLoc": {
+          "column": 32,
+          "line": 36,
+          "position": 835
+        }
+      },
+      "tokens": 62
+    },
+    {
+      "firstFile": {
+        "end": 39,
+        "endLoc": {
+          "column": 26,
+          "line": 39,
+          "position": 1188
+        },
+        "name": "_core/dataApi.ts",
+        "start": 29,
+        "startLoc": {
+          "column": 64,
+          "line": 29,
+          "position": 889
+        }
+      },
+      "format": "typescript",
+      "fragment": "",
+      "lines": 11,
+      "secondFile": {
+        "end": 61,
+        "endLoc": {
+          "column": 26,
+          "line": 61,
+          "position": 1574
+        },
+        "name": "_core/imageGeneration.ts",
+        "start": 49,
+        "startLoc": {
+          "column": 42,
+          "line": 49,
+          "position": 1268
+        }
+      },
+      "tokens": 53
+    },
+    {
+      "firstFile": {
+        "end": 129,
+        "endLoc": {
+          "column": 12,
+          "line": 129,
+          "position": 4095
+        },
+        "name": "_core/index.ts",
+        "start": 49,
+        "startLoc": {
+          "column": 5,
+          "line": 49,
+          "position": 1485
+        }
+      },
+      "format": "typescript",
+      "fragment": "",
+      "lines": 81,
+      "secondFile": {
+        "end": 100,
+        "endLoc": {
+          "column": 12,
+          "line": 100,
+          "position": 3214
+        },
+        "name": "index.ts",
+        "start": 22,
+        "startLoc": {
+          "column": 35,
+          "line": 22,
+          "position": 646
+        }
+      },
+      "tokens": 453
+    },
+    {
+      "firstFile": {
+        "end": 226,
+        "endLoc": {
+          "column": 5,
+          "line": 226,
+          "position": 7854
+        },
+        "name": "_core/index.ts",
+        "start": 158,
+        "startLoc": {
+          "column": 79,
+          "line": 158,
+          "position": 5453
+        }
+      },
+      "format": "typescript",
+      "fragment": "",
+      "lines": 69,
+      "secondFile": {
+        "end": 174,
+        "endLoc": {
+          "column": 5,
+          "line": 174,
+          "position": 5962
+        },
+        "name": "index.ts",
+        "start": 106,
+        "startLoc": {
+          "column": 65,
+          "line": 106,
+          "position": 3561
+        }
+      },
+      "tokens": 395
+    },
+    {
+      "firstFile": {
+        "end": 69,
+        "endLoc": {
+          "column": 19,
+          "line": 69,
+          "position": 2455
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 28,
+        "startLoc": {
+          "column": 45,
+          "line": 28,
+          "position": 1171
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 42,
+      "secondFile": {
+        "end": 1247,
+        "endLoc": {
+          "column": 19,
+          "line": 1247,
+          "position": 42076
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 1206,
+        "startLoc": {
+          "column": 45,
+          "line": 1206,
+          "position": 40792
+        }
+      },
+      "tokens": 146
+    },
+    {
+      "firstFile": {
+        "end": 118,
+        "endLoc": {
+          "column": 19,
+          "line": 118,
+          "position": 4093
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 77,
+        "startLoc": {
+          "column": 45,
+          "line": 77,
+          "position": 2862
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 42,
+      "secondFile": {
+        "end": 1296,
+        "endLoc": {
+          "column": 19,
+          "line": 1296,
+          "position": 43715
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 1255,
+        "startLoc": {
+          "column": 45,
+          "line": 1255,
+          "position": 42484
+        }
+      },
+      "tokens": 146
+    },
+    {
+      "firstFile": {
+        "end": 167,
+        "endLoc": {
+          "column": 19,
+          "line": 167,
+          "position": 5771
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 126,
+        "startLoc": {
+          "column": 45,
+          "line": 126,
+          "position": 4514
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 42,
+      "secondFile": {
+        "end": 1345,
+        "endLoc": {
+          "column": 19,
+          "line": 1345,
+          "position": 45394
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 1304,
+        "startLoc": {
+          "column": 45,
+          "line": 1304,
+          "position": 44137
+        }
+      },
+      "tokens": 146
+    },
+    {
+      "firstFile": {
+        "end": 216,
+        "endLoc": {
+          "column": 19,
+          "line": 216,
+          "position": 7419
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 175,
+        "startLoc": {
+          "column": 45,
+          "line": 175,
+          "position": 6182
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 42,
+      "secondFile": {
+        "end": 1394,
+        "endLoc": {
+          "column": 19,
+          "line": 1394,
+          "position": 47043
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 1353,
+        "startLoc": {
+          "column": 45,
+          "line": 1353,
+          "position": 45806
+        }
+      },
+      "tokens": 146
+    },
+    {
+      "firstFile": {
+        "end": 273,
+        "endLoc": {
+          "column": 19,
+          "line": 273,
+          "position": 9330
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 224,
+        "startLoc": {
+          "column": 45,
+          "line": 224,
+          "position": 7818
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 50,
+      "secondFile": {
+        "end": 1451,
+        "endLoc": {
+          "column": 19,
+          "line": 1451,
+          "position": 48955
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 1402,
+        "startLoc": {
+          "column": 45,
+          "line": 1402,
+          "position": 47443
+        }
+      },
+      "tokens": 174
+    },
+    {
+      "firstFile": {
+        "end": 273,
+        "endLoc": {
+          "column": 19,
+          "line": 273,
+          "position": 9330
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 224,
+        "startLoc": {
+          "column": 45,
+          "line": 224,
+          "position": 7818
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 50,
+      "secondFile": {
+        "end": 2273,
+        "endLoc": {
+          "column": 19,
+          "line": 2273,
+          "position": 76255
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 2224,
+        "startLoc": {
+          "column": 45,
+          "line": 2224,
+          "position": 74743
+        }
+      },
+      "tokens": 174
+    },
+    {
+      "firstFile": {
+        "end": 320,
+        "endLoc": {
+          "column": 19,
+          "line": 320,
+          "position": 10822
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 279,
+        "startLoc": {
+          "column": 45,
+          "line": 279,
+          "position": 9587
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 42,
+      "secondFile": {
+        "end": 1498,
+        "endLoc": {
+          "column": 19,
+          "line": 1498,
+          "position": 50448
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 1457,
+        "startLoc": {
+          "column": 45,
+          "line": 1457,
+          "position": 49213
+        }
+      },
+      "tokens": 146
+    },
+    {
+      "firstFile": {
+        "end": 320,
+        "endLoc": {
+          "column": 19,
+          "line": 320,
+          "position": 10822
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 279,
+        "startLoc": {
+          "column": 45,
+          "line": 279,
+          "position": 9587
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 42,
+      "secondFile": {
+        "end": 2320,
+        "endLoc": {
+          "column": 19,
+          "line": 2320,
+          "position": 77715
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 2279,
+        "startLoc": {
+          "column": 45,
+          "line": 2279,
+          "position": 76480
+        }
+      },
+      "tokens": 146
+    },
+    {
+      "firstFile": {
+        "end": 369,
+        "endLoc": {
+          "column": 19,
+          "line": 369,
+          "position": 12495
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 328,
+        "startLoc": {
+          "column": 45,
+          "line": 328,
+          "position": 11243
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 42,
+      "secondFile": {
+        "end": 1547,
+        "endLoc": {
+          "column": 19,
+          "line": 1547,
+          "position": 52122
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 1506,
+        "startLoc": {
+          "column": 45,
+          "line": 1506,
+          "position": 50870
+        }
+      },
+      "tokens": 146
+    },
+    {
+      "firstFile": {
+        "end": 369,
+        "endLoc": {
+          "column": 19,
+          "line": 369,
+          "position": 12495
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 328,
+        "startLoc": {
+          "column": 45,
+          "line": 328,
+          "position": 11243
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 42,
+      "secondFile": {
+        "end": 2371,
+        "endLoc": {
+          "column": 19,
+          "line": 2371,
+          "position": 79364
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 2330,
+        "startLoc": {
+          "column": 45,
+          "line": 2330,
+          "position": 78112
+        }
+      },
+      "tokens": 146
+    },
+    {
+      "firstFile": {
+        "end": 424,
+        "endLoc": {
+          "column": 19,
+          "line": 424,
+          "position": 14332
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 375,
+        "startLoc": {
+          "column": 45,
+          "line": 375,
+          "position": 12774
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 50,
+      "secondFile": {
+        "end": 1602,
+        "endLoc": {
+          "column": 19,
+          "line": 1602,
+          "position": 53960
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 1553,
+        "startLoc": {
+          "column": 45,
+          "line": 1553,
+          "position": 52402
+        }
+      },
+      "tokens": 174
+    },
+    {
+      "firstFile": {
+        "end": 473,
+        "endLoc": {
+          "column": 19,
+          "line": 473,
+          "position": 15981
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 432,
+        "startLoc": {
+          "column": 45,
+          "line": 432,
+          "position": 14744
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 42,
+      "secondFile": {
+        "end": 1651,
+        "endLoc": {
+          "column": 19,
+          "line": 1651,
+          "position": 55609
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 1610,
+        "startLoc": {
+          "column": 45,
+          "line": 1610,
+          "position": 54372
+        }
+      },
+      "tokens": 146
+    },
+    {
+      "firstFile": {
+        "end": 471,
+        "endLoc": {
+          "column": 5,
+          "line": 471,
+          "position": 15954
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 432,
+        "startLoc": {
+          "column": 45,
+          "line": 432,
+          "position": 14744
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 40,
+      "secondFile": {
+        "end": 2431,
+        "endLoc": {
+          "column": 5,
+          "line": 2431,
+          "position": 81419
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 2392,
+        "startLoc": {
+          "column": 45,
+          "line": 2392,
+          "position": 80209
+        }
+      },
+      "tokens": 142
+    },
+    {
+      "firstFile": {
+        "end": 530,
+        "endLoc": {
+          "column": 19,
+          "line": 530,
+          "position": 17899
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 481,
+        "startLoc": {
+          "column": 45,
+          "line": 481,
+          "position": 16387
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 50,
+      "secondFile": {
+        "end": 1708,
+        "endLoc": {
+          "column": 19,
+          "line": 1708,
+          "position": 57527
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 1659,
+        "startLoc": {
+          "column": 45,
+          "line": 1659,
+          "position": 56015
+        }
+      },
+      "tokens": 174
+    },
+    {
+      "firstFile": {
+        "end": 579,
+        "endLoc": {
+          "column": 19,
+          "line": 579,
+          "position": 19541
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 538,
+        "startLoc": {
+          "column": 45,
+          "line": 538,
+          "position": 18305
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 42,
+      "secondFile": {
+        "end": 1757,
+        "endLoc": {
+          "column": 19,
+          "line": 1757,
+          "position": 59169
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 1716,
+        "startLoc": {
+          "column": 45,
+          "line": 1716,
+          "position": 57933
+        }
+      },
+      "tokens": 146
+    },
+    {
+      "firstFile": {
+        "end": 628,
+        "endLoc": {
+          "column": 19,
+          "line": 628,
+          "position": 21193
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 587,
+        "startLoc": {
+          "column": 45,
+          "line": 587,
+          "position": 19955
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 42,
+      "secondFile": {
+        "end": 1029,
+        "endLoc": {
+          "column": 19,
+          "line": 1029,
+          "position": 34770
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 988,
+        "startLoc": {
+          "column": 45,
+          "line": 988,
+          "position": 33532
+        }
+      },
+      "tokens": 146
+    },
+    {
+      "firstFile": {
+        "end": 628,
+        "endLoc": {
+          "column": 19,
+          "line": 628,
+          "position": 21193
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 587,
+        "startLoc": {
+          "column": 45,
+          "line": 587,
+          "position": 19955
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 42,
+      "secondFile": {
+        "end": 1806,
+        "endLoc": {
+          "column": 19,
+          "line": 1806,
+          "position": 60821
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 1765,
+        "startLoc": {
+          "column": 45,
+          "line": 1765,
+          "position": 59583
+        }
+      },
+      "tokens": 146
+    },
+    {
+      "firstFile": {
+        "end": 677,
+        "endLoc": {
+          "column": 19,
+          "line": 677,
+          "position": 22824
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 636,
+        "startLoc": {
+          "column": 45,
+          "line": 636,
+          "position": 21597
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 42,
+      "secondFile": {
+        "end": 1855,
+        "endLoc": {
+          "column": 19,
+          "line": 1855,
+          "position": 62452
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 1814,
+        "startLoc": {
+          "column": 45,
+          "line": 1814,
+          "position": 61225
+        }
+      },
+      "tokens": 146
+    },
+    {
+      "firstFile": {
+        "end": 726,
+        "endLoc": {
+          "column": 19,
+          "line": 726,
+          "position": 24495
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 685,
+        "startLoc": {
+          "column": 45,
+          "line": 685,
+          "position": 23244
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 42,
+      "secondFile": {
+        "end": 1128,
+        "endLoc": {
+          "column": 19,
+          "line": 1128,
+          "position": 37918
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 1087,
+        "startLoc": {
+          "column": 45,
+          "line": 1087,
+          "position": 36667
+        }
+      },
+      "tokens": 146
+    },
+    {
+      "firstFile": {
+        "end": 726,
+        "endLoc": {
+          "column": 19,
+          "line": 726,
+          "position": 24495
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 685,
+        "startLoc": {
+          "column": 45,
+          "line": 685,
+          "position": 23244
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 42,
+      "secondFile": {
+        "end": 1904,
+        "endLoc": {
+          "column": 19,
+          "line": 1904,
+          "position": 64123
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 1863,
+        "startLoc": {
+          "column": 45,
+          "line": 1863,
+          "position": 62872
+        }
+      },
+      "tokens": 146
+    },
+    {
+      "firstFile": {
+        "end": 832,
+        "endLoc": {
+          "column": 19,
+          "line": 832,
+          "position": 28152
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 783,
+        "startLoc": {
+          "column": 45,
+          "line": 783,
+          "position": 26602
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 50,
+      "secondFile": {
+        "end": 1961,
+        "endLoc": {
+          "column": 19,
+          "line": 1961,
+          "position": 66103
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 1912,
+        "startLoc": {
+          "column": 45,
+          "line": 1912,
+          "position": 64553
+        }
+      },
+      "tokens": 174
+    },
+    {
+      "firstFile": {
+        "end": 881,
+        "endLoc": {
+          "column": 19,
+          "line": 881,
+          "position": 29841
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 840,
+        "startLoc": {
+          "column": 45,
+          "line": 840,
+          "position": 28580
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 42,
+      "secondFile": {
+        "end": 2010,
+        "endLoc": {
+          "column": 19,
+          "line": 2010,
+          "position": 67792
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 1969,
+        "startLoc": {
+          "column": 45,
+          "line": 1969,
+          "position": 66531
+        }
+      },
+      "tokens": 146
+    },
+    {
+      "firstFile": {
+        "end": 930,
+        "endLoc": {
+          "column": 19,
+          "line": 930,
+          "position": 31515
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 889,
+        "startLoc": {
+          "column": 45,
+          "line": 889,
+          "position": 30263
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 42,
+      "secondFile": {
+        "end": 2059,
+        "endLoc": {
+          "column": 19,
+          "line": 2059,
+          "position": 69466
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 2018,
+        "startLoc": {
+          "column": 45,
+          "line": 2018,
+          "position": 68214
+        }
+      },
+      "tokens": 146
+    },
+    {
+      "firstFile": {
+        "end": 1078,
+        "endLoc": {
+          "column": 19,
+          "line": 1078,
+          "position": 36310
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 1037,
+        "startLoc": {
+          "column": 45,
+          "line": 1037,
+          "position": 35076
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 42,
+      "secondFile": {
+        "end": 2108,
+        "endLoc": {
+          "column": 19,
+          "line": 2108,
+          "position": 71006
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 2067,
+        "startLoc": {
+          "column": 45,
+          "line": 2067,
+          "position": 69772
+        }
+      },
+      "tokens": 146
+    },
+    {
+      "firstFile": {
+        "end": 1185,
+        "endLoc": {
+          "column": 19,
+          "line": 1185,
+          "position": 39743
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 1136,
+        "startLoc": {
+          "column": 45,
+          "line": 1136,
+          "position": 38224
+        }
+      },
+      "format": "json",
+      "fragment": "",
+      "lines": 50,
+      "secondFile": {
+        "end": 2165,
+        "endLoc": {
+          "column": 19,
+          "line": 2165,
+          "position": 72831
+        },
+        "name": "data/rentcast-cache.json",
+        "start": 2116,
+        "startLoc": {
+          "column": 45,
+          "line": 2116,
+          "position": 71312
+        }
+      },
+      "tokens": 174
+    },
+    {
+      "firstFile": {
+        "end": 74,
+        "endLoc": {
+          "column": 28,
+          "line": 74,
+          "position": 2294
+        },
+        "name": "favorites.test.ts",
+        "start": 68,
+        "startLoc": {
+          "column": 35,
+          "line": 68,
+          "position": 2046
+        }
+      },
+      "format": "typescript",
+      "fragment": "",
+      "lines": 7,
+      "secondFile": {
+        "end": 16,
+        "endLoc": {
+          "column": 28,
+          "line": 16,
+          "position": 547
+        },
+        "name": "inquiries.test.ts",
+        "start": 10,
+        "startLoc": {
+          "column": 46,
+          "line": 10,
+          "position": 299
+        }
+      },
+      "tokens": 67
+    },
+    {
+      "firstFile": {
+        "end": 78,
+        "endLoc": {
+          "column": 26,
+          "line": 78,
+          "position": 2484
+        },
+        "name": "favorites.test.ts",
+        "start": 68,
+        "startLoc": {
+          "column": 35,
+          "line": 68,
+          "position": 2046
+        }
+      },
+      "format": "typescript",
+      "fragment": "",
+      "lines": 11,
+      "secondFile": {
+        "end": 47,
+        "endLoc": {
+          "column": 9,
+          "line": 47,
+          "position": 1496
+        },
+        "name": "inquiries.test.ts",
+        "start": 36,
+        "startLoc": {
+          "column": 47,
+          "line": 36,
+          "position": 1112
+        }
+      },
+      "tokens": 100
+    },
+    {
+      "firstFile": {
+        "end": 79,
+        "endLoc": {
+          "column": 35,
+          "line": 79,
+          "position": 2534
+        },
+        "name": "favorites.test.ts",
+        "start": 68,
+        "startLoc": {
+          "column": 35,
+          "line": 68,
+          "position": 2046
+        }
+      },
+      "format": "typescript",
+      "fragment": "",
+      "lines": 12,
+      "secondFile": {
+        "end": 74,
+        "endLoc": {
+          "column": 12,
+          "line": 74,
+          "position": 2342
+        },
+        "name": "inquiries.test.ts",
+        "start": 59,
+        "startLoc": {
+          "column": 52,
+          "line": 59,
+          "position": 1833
+        }
+      },
+      "tokens": 117
+    },
+    {
+      "firstFile": {
+        "end": 79,
+        "endLoc": {
+          "column": 24,
+          "line": 79,
+          "position": 2523
+        },
+        "name": "favorites.test.ts",
+        "start": 68,
+        "startLoc": {
+          "column": 35,
+          "line": 68,
+          "position": 2046
+        }
+      },
+      "format": "typescript",
+      "fragment": "",
+      "lines": 12,
+      "secondFile": {
+        "end": 96,
+        "endLoc": {
+          "column": 11,
+          "line": 96,
+          "position": 3029
+        },
+        "name": "inquiries.test.ts",
+        "start": 82,
+        "startLoc": {
+          "column": 44,
+          "line": 82,
+          "position": 2545
+        }
+      },
+      "tokens": 113
+    },
+    {
+      "firstFile": {
+        "end": 80,
+        "endLoc": {
+          "column": 41,
+          "line": 80,
+          "position": 2578
+        },
+        "name": "favorites.test.ts",
+        "start": 69,
+        "startLoc": {
+          "column": 26,
+          "line": 69,
+          "position": 2082
+        }
+      },
+      "format": "typescript",
+      "fragment": "",
+      "lines": 12,
+      "secondFile": {
+        "end": 98,
+        "endLoc": {
+          "column": 45,
+          "line": 98,
+          "position": 3322
+        },
+        "name": "routers.ts",
+        "start": 87,
+        "startLoc": {
+          "column": 8,
+          "line": 87,
+          "position": 2782
+        }
+      },
+      "tokens": 123
+    },
+    {
+      "firstFile": {
+        "end": 81,
+        "endLoc": {
+          "column": 5,
+          "line": 81,
+          "position": 2624
+        },
+        "name": "favorites.test.ts",
+        "start": 70,
+        "startLoc": {
+          "column": 27,
+          "line": 70,
+          "position": 2120
+        }
+      },
+      "format": "typescript",
+      "fragment": "",
+      "lines": 12,
+      "secondFile": {
+        "end": 99,
+        "endLoc": {
+          "column": 23,
+          "line": 99,
+          "position": 3386
+        },
+        "name": "routers.ts",
+        "start": 88,
+        "startLoc": {
+          "column": 31,
+          "line": 88,
+          "position": 2824
+        }
+      },
+      "tokens": 113
+    },
+    {
+      "firstFile": {
+        "end": 178,
+        "endLoc": {
+          "column": 8,
+          "line": 178,
+          "position": 5681
+        },
+        "name": "propertyDatabase.ts",
+        "start": 128,
+        "startLoc": {
+          "column": 39,
+          "line": 128,
+          "position": 4632
+        }
+      },
+      "format": "typescript",
+      "fragment": "",
+      "lines": 51,
+      "secondFile": {
+        "end": 186,
+        "endLoc": {
+          "column": 8,
+          "line": 186,
+          "position": 4505
+        },
+        "name": "rentcastDatabase.ts",
+        "start": 136,
+        "startLoc": {
+          "column": 55,
+          "line": 136,
+          "position": 3456
+        }
+      },
+      "tokens": 303
+    },
+    {
+      "firstFile": {
+        "end": 192,
+        "endLoc": {
+          "column": 8,
+          "line": 192,
+          "position": 6050
+        },
+        "name": "propertyDatabase.ts",
+        "start": 181,
+        "startLoc": {
+          "column": 48,
+          "line": 181,
+          "position": 5868
+        }
+      },
+      "format": "typescript",
+      "fragment": "",
+      "lines": 12,
+      "secondFile": {
+        "end": 136,
+        "endLoc": {
+          "column": 8,
+          "line": 136,
+          "position": 3409
+        },
+        "name": "rentcastDatabase.ts",
+        "start": 125,
+        "startLoc": {
+          "column": 51,
+          "line": 125,
+          "position": 3227
+        }
+      },
+      "tokens": 51
+    }
+  ],
+  "statistics": {
+    "detectionDate": "2026-06-28T22:48:49.435Z",
+    "formats": {
+      "css": {
+        "clones": 0,
+        "duplicatedLines": 0,
+        "duplicatedTokens": 0,
+        "lines": 139,
+        "newClones": 0,
+        "newDuplicatedLines": 0,
+        "percentage": 0.0,
+        "percentageTokens": 0.0,
+        "sources": 1,
+        "tokens": 1382
+      },
+      "csv": {
+        "clones": 0,
+        "duplicatedLines": 0,
+        "duplicatedTokens": 0,
+        "lines": 355,
+        "newClones": 0,
+        "newDuplicatedLines": 0,
+        "percentage": 0.0,
+        "percentageTokens": 0.0,
+        "sources": 1,
+        "tokens": 3925
+      },
+      "javascript": {
+        "clones": 1,
+        "duplicatedLines": 6,
+        "duplicatedTokens": 65,
+        "lines": 821,
+        "newClones": 0,
+        "newDuplicatedLines": 0,
+        "percentage": 0.730816077953715,
+        "percentageTokens": 1.5183368371875732,
+        "sources": 1,
+        "tokens": 4281
+      },
+      "json": {
+        "clones": 25,
+        "duplicatedLines": 1071,
+        "duplicatedTokens": 3814,
+        "lines": 2433,
+        "newClones": 0,
+        "newDuplicatedLines": 0,
+        "percentage": 44.019728729963006,
+        "percentageTokens": 45.57839388145315,
+        "sources": 1,
+        "tokens": 8368
+      },
+      "markup": {
+        "clones": 0,
+        "duplicatedLines": 0,
+        "duplicatedTokens": 0,
+        "lines": 189,
+        "newClones": 0,
+        "newDuplicatedLines": 0,
+        "percentage": 0.0,
+        "percentageTokens": 0.0,
+        "sources": 2,
+        "tokens": 1110
+      },
+      "tsx": {
+        "clones": 7,
+        "duplicatedLines": 71,
+        "duplicatedTokens": 461,
+        "lines": 12289,
+        "newClones": 0,
+        "newDuplicatedLines": 0,
+        "percentage": 0.5777524615509806,
+        "percentageTokens": 0.821073629466035,
+        "sources": 87,
+        "tokens": 56146
+      },
+      "typescript": {
+        "clones": 12,
+        "duplicatedLines": 289,
+        "duplicatedTokens": 1950,
+        "lines": 5225,
+        "newClones": 0,
+        "newDuplicatedLines": 0,
+        "percentage": 5.5311004784688995,
+        "percentageTokens": 6.943455348240992,
+        "sources": 42,
+        "tokens": 28084
+      }
+    },
+    "total": {
+      "clones": 45,
+      "duplicatedLines": 1437,
+      "duplicatedTokens": 6290,
+      "lines": 21451,
+      "newClones": 0,
+      "newDuplicatedLines": 0,
+      "percentage": 6.69898839214955,
+      "percentageTokens": 6.08929677819083,
+      "sources": 135,
+      "tokens": 103296
+    }
+  }
+}
