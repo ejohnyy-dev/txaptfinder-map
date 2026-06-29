@@ -358,11 +358,6 @@ export async function getEligiblePropertyDatabaseRecords() {
     .filter(({ row, apartment }) => hasCompleteProfile(row, apartment));
 }
 
-export async function getPropertyDatabaseStats(): Promise<PropertyStats> {
-  const { stats } = await readPropertyDatabase();
-  return stats;
-}
-
 export async function queryPropertyDatabase(filters?: PropertyFilters): Promise<PropertyApartment[]> {
   const { apartments } = await readPropertyDatabase();
 
