@@ -197,12 +197,7 @@ Bake motion taste in from the first line of code. Snappy, physically intuitive i
 
 Before implementing UI features, check if these components already exist:
 
-Dashboard & Layout:
-- `client/src/components/DashboardLayout.tsx` - Full dashboard layout with sidebar navigation, auth handling, and user profile. Use this for any admin panel or dashboard-style app instead of building from scratch.
-- `client/src/components/DashboardLayoutSkeleton.tsx` - Loading skeleton for dashboard during auth checks
-
-Chat & Messaging:
-- `client/src/components/AIChatBox.tsx` - Full-featured chat interface with message history, streaming support, and markdown rendering. Use this for any chat/conversation UI instead of building from scratch.
+> **Note:** `DashboardLayout`, `DashboardLayoutSkeleton`, and `AIChatBox` (previously listed here) were unused in this app and have been moved to `archive/` (see `archive/client/src/components/`). They are excluded from the build/typecheck. If this project needs a dashboard layout or chat UI again, restore the relevant file(s) from `archive/` and re-wire imports rather than rebuilding from scratch.
 
 Maps:
 - `client/src/components/Map.tsx` - Google Maps integration with proxy authentication. Provides MapView component with onMapReady callback for initializing Google Maps services (Places, Geocoder, Directions, Drawing, etc.). All map functionality works directly in the browser.
@@ -213,21 +208,14 @@ When implementing features that match these categories, MUST evaluate the compon
 
 ## Internal Tools & Admin Panels
 
-For certain app types, this template provides DashboardLayout—a standardized sidebar pattern.
+This template historically provided a `DashboardLayout`—a standardized sidebar pattern for admin-style apps. This app is public-facing and never used it, so it has been archived (see `archive/client/src/components/DashboardLayout.tsx`) and is excluded from the build/typecheck.
 
-**Use DashboardLayout for:**
-- Admin/management dashboards
-- Personal productivity apps (task managers, note-taking)
-- Analytics/monitoring tools
+If a future feature in this app needs an internal tool / admin panel (the kind of surface `DashboardLayout` was designed for — admin/management dashboards, personal productivity apps, analytics/monitoring tools), restore it from `archive/` first and re-verify it still fits the current auth/sidebar primitives before wiring it back in.
 
-**Do NOT use for:**
+**Do NOT use a dashboard/sidebar pattern for:**
 - Public content platforms (forums, blogs, social networks)
 - E-commerce storefronts
 - Marketing/landing sites
-
-**Layout & Navigation**
-- Use `DashboardLayout` component from `client/src/components/DashboardLayout.tsx` and remove any page-level headers to avoid duplication.
-- When use DashboardLayout, read its content before making changes and preserve its core structure by default.
 
 **Role-based Access Control**
 When building apps with distinct access levels (e.g., e-commerce with public home, user account, admin panel):
